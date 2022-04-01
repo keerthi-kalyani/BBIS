@@ -4,6 +4,7 @@ public with sharing class accinsert {
     account ac=new account();
     ac.Name='rajesh';
     system.debug('ac '+ac);
+    system.debug();
     acc.add(ac);
     insert ac;
      
